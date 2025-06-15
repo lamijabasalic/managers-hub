@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/managers-hub/static/css/main.501d3473.css",
+    "main.js": "/managers-hub/static/js/main.f76682d8.js",
+    "static/js/453.9cdcf66f.chunk.js": "/managers-hub/static/js/453.9cdcf66f.chunk.js",
+    "index.html": "/managers-hub/index.html",
+    "main.501d3473.css.map": "/managers-hub/static/css/main.501d3473.css.map",
+    "main.f76682d8.js.map": "/managers-hub/static/js/main.f76682d8.js.map",
+    "453.9cdcf66f.chunk.js.map": "/managers-hub/static/js/453.9cdcf66f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.501d3473.css",
+    "static/js/main.f76682d8.js"
+  ]
+}
