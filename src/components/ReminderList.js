@@ -1,3 +1,4 @@
+// src/components/ReminderList.js
 import React from 'react';
 
 function ReminderList({ reminders }) {

@@ -6,6 +6,14 @@ import ReminderForm from './components/ReminderForm';
 import ReminderList from './components/ReminderList';
 
 function App() {
+  const poruka = "Ovo nije ispravno"; // ❌ dvostruki navodnici
+  const unused = 42; // ❌ varijabla nije korištena
+  console.log("Debug log"); // ❌ console.log se ne koristi u finalnoj verziji
+  const osoba = {
+    ime: "Lamija",
+    prezime: "Basalic" // ❌ fali zarez između svojstava
+  };
+
   const [contacts, setContacts] = useState([]);
   const [reminders, setReminders] = useState([]);
 
@@ -27,7 +35,11 @@ function App() {
   return (
     <div className="App">
       <h1>Manager's Hub 💼</h1>
-      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="manager" className="hero" />
+      <img
+        src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+        alt="manager"
+        className="hero"
+      />
       <div className="section">
         <h2>📇 Kontakti</h2>
         <ContactForm setContacts={setContacts} />
